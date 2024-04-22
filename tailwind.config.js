@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         BeVietnamPro: ["Be Vietnam Pro", "sans-serif"],
+        NotoSans: ["Noto Sans", "sans-serif"],
       },
     },
   },
