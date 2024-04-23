@@ -1,9 +1,9 @@
-import image from "../assets/joinToday.png";
+import image from '../assets/joinToday.png';
 
 const JoinToday = () => {
   return (
     <div className="md:w-[1216px] mx-auto md:pt-24 md:pb-12">
-      <div className="bg-[#04334D]  rounded-xl px-14 py-10 md:py-20 relative">
+      <div className="bg-[#04334D] md:rounded-xl px-14 py-10 md:py-20 relative">
         <div className="text-white md:w-[54%]">
           <h1 className="font-semibold text-xl md:text-2xl leading-8 mb-8">
             Join <span className="text-[#01A3E0]">Pacific Hunt </span> today.

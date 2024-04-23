@@ -1,5 +1,5 @@
-import { FiSearch } from "react-icons/fi";
-import { CiLocationOn } from "react-icons/ci";
+import { FiSearch } from 'react-icons/fi';
+import { CiLocationOn } from 'react-icons/ci';
 
 const SearchBar = () => {
   return (

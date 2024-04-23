@@ -1,8 +1,8 @@
-import image from "../assets/footer.png";
-import footer1 from "../assets/footer1.svg";
-import footer2 from "../assets/footer2.svg";
-import footer3 from "../assets/footer3.svg";
-import footer4 from "../assets/footer4.svg";
+import image from '../assets/footer.png';
+import footer1 from '../assets/footer1.svg';
+import footer2 from '../assets/footer2.svg';
+import footer3 from '../assets/footer3.svg';
+import footer4 from '../assets/footer4.svg';
 
 const array = [footer1, footer2, footer3, footer4];
 
@@ -56,7 +56,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="py-12  md:w-[1216px] mx-auto flex items-center justify-between">
+      <div className="py-12 md:w-[1216px] mx-auto flex items-center justify-between gap-4 md:gap-0">
         <div className="text-xs md:text-base text-[#D1D3DC] font-NotoSans">
           Copyright © 2024 Pacific Hunt. All rights reserved.
         </div>
