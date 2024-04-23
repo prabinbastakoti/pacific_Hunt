@@ -7,7 +7,7 @@ const LoginForm = () => {
             Email
           </label>
           <input
-            className="w-[412px] h-[48px] px-4 py-[14px] border-2 border-[#E6E7E7]"
+            className="md:w-[412px] w-[300px] h-[48px] px-4 py-[14px] border-2 border-[#E6E7E7]"
             type="email"
             placeholder="Email"
           />
@@ -17,13 +17,13 @@ const LoginForm = () => {
             Password
           </label>
           <input
-            className="w-[412px] h-[48px] px-4 py-[14px] border-2 border-[#E6E7E7]"
+            className="md:w-[412px] w-[300px] h-[48px] px-4 py-[14px] border-2 border-[#E6E7E7]"
             type="password"
             placeholder="password"
           />
         </div>
         <div>
-          <button className="w-[412px] h-[#48px] bg-[#01A3E0] px-6 py-[14px] rounded-lg mt-20 text-white">
+          <button className="md:w-[412px] w-[300px] h-[#48px] bg-[#01A3E0] px-6 py-[14px] rounded-lg mt-10 md:mt-20 text-white">
             Log in
           </button>
           <p className="text-center font-medium text-sm mt-6">
