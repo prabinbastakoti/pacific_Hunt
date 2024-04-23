@@ -6,6 +6,7 @@ import img5 from '../../assets/popular5.svg';
 import img6 from '../../assets/popular6.svg';
 import arrow from '../../assets/arrow.svg';
 
+// dummy data of popular categories of jobs
 const array = [
   { img: img1, title: 'Graphics & Design', description: '418 Open Position' },
   {
@@ -36,6 +37,7 @@ const popularCategories = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 xl:w-[1216px] mx-auto justify-between gap-4">
         {array.map((item, index) => {
           return (
+            // setting border and text color based on index number
             <div
               key={index}
               className={`flex items-center gap-4 border-[1px] ${

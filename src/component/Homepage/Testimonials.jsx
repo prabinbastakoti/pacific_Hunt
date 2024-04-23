@@ -5,6 +5,7 @@ import quote from '../../assets/quote.svg';
 import arrowLeft from '../../assets/arrowLeft.svg';
 import arrowRight from '../../assets/arrowRight.svg';
 
+// sample data of testimonials
 const array = [
   {
     id: 1,

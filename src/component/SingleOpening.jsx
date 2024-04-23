@@ -2,6 +2,7 @@ import { IoLocationOutline, IoTimeOutline } from 'react-icons/io5';
 
 const SingleOpening = ({ data }) => {
   return (
+    // If id of current data is 6 then different border and shadow will be implemented
     <div
       className={`px-6 rounded-xl py-4 border-[1px] ${
         data.id === 6
@@ -29,6 +30,7 @@ const SingleOpening = ({ data }) => {
         </div>
       </div>
       <div className="flex items-center gap-4">
+        {/* map through array of details i.e. Remote work, entry level, full time , etc */}
         {data.details.map((item, index) => {
           return (
             <div key={item} className="flex items-center  gap-4">

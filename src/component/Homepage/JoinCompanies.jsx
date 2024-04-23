@@ -4,6 +4,7 @@ import airbnb from '../../assets/airbnb.svg';
 import microsoft from '../../assets/microsoft.svg';
 import clickup from '../../assets/clickup.svg';
 
+// array of different companies logos
 const array = [google, zoho, airbnb, microsoft, clickup];
 
 const JoinCompanies = () => {

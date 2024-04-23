@@ -21,6 +21,7 @@ const HeroSection = () => {
           </h1>
           <div className="xl:absolute 2xl:bottom-0 2xl:right-0 xl:bottom-32 bottom-0 right-0 xl:right-0 xl:w-[600px] 2xl:w-[800px] 2xl:max-w-screen-xl">
             <img src={HeroImg} alt="" className="" />
+            {/* positioning and sizing images in hero section for different screen sizes */}
             <img
               src={slack}
               alt=""

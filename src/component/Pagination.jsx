@@ -1,3 +1,5 @@
+// Pagination takes max a props to show maximum search results found
+
 const Pagination = ({ max }) => {
   return (
     <div className="mt-20 flex flex-col xl:flex-row items-center justify-between mb-20 gap-6 xl:gap-0">

@@ -40,6 +40,7 @@ const Companypage = () => {
             <CompaniesJobs />
             <CompaniesJobs />
           </div>
+          {/* pagination takes max props as number of search results found */}
           <Pagination max="4512" />
         </div>
         <div className="flex flex-col gap-10 xl:gap-20">

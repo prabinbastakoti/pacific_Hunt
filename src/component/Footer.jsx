@@ -4,6 +4,7 @@ import footer2 from '../assets/footer2.svg';
 import footer3 from '../assets/footer3.svg';
 import footer4 from '../assets/footer4.svg';
 
+// array of footer social media icons
 const array = [footer1, footer2, footer3, footer4];
 
 const Footer = () => {
@@ -61,6 +62,7 @@ const Footer = () => {
           Copyright © 2024 Pacific Hunt. All rights reserved.
         </div>
         <div className="flex items-center gap-3 xl:gap-6">
+          {/* map the social media icons  */}
           {array.map((item, index) => {
             return <img src={item} alt="" key={index} className="w-4 xl:w-6" />;
           })}

@@ -1,5 +1,6 @@
 import { IoLocationOutline } from 'react-icons/io5';
 
+// SingleCompanyJobs is reusable component which takes data of single company as props
 const SingleCompanyJobs = ({ data }) => {
   return (
     <div className="px-6 rounded-xl py-4 border-[1px] border-[#E6E7E7]">

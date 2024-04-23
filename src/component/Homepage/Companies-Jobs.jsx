@@ -7,6 +7,7 @@ import apple from '../../assets/apple.svg';
 import twitter from '../../assets/twitter.svg';
 import SingleCompanyJobs from './Single-Company-Jobs.jsx';
 
+// dummy data of different companies with number of jobs available
 const array = [
   {
     img: google,

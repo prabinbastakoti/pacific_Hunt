@@ -3,6 +3,7 @@ import img2 from '../../assets/topOpenings2.png';
 import img3 from '../../assets/topOpenings3.png';
 import SingleOpening from '../SingleOpening';
 
+// sample data of TopOpenings
 const array = [
   {
     id: 1,

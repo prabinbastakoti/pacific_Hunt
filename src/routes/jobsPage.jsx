@@ -5,6 +5,7 @@ import JoinToday from '../component/JoinToday';
 import Footer from '../component/Footer';
 import Pagination from '../component/Pagination';
 
+//List of filters
 const array = [
   'Job Type',
   'Salary Range',
@@ -25,6 +26,7 @@ const Jobspage = () => {
       <SearchBar />
       <div className="xl:w-[1216px] mx-auto px-6 xl:px-0">
         <div className="mt-6 grid grid-cols-2 xl:flex items-center justify-between pb-10 border-b-[1px] border-[#D0D1D1]">
+          {/* display the filters */}
           {array.map((item, index) => {
             return (
               <div
@@ -60,6 +62,7 @@ const Jobspage = () => {
           <TopOpenings />
           <TopOpenings />
         </div>
+        {/* Pagination takes number of search results found as props */}
         <Pagination max="112" />
       </div>
       <div className="flex flex-col gap-10 md:gap-20">

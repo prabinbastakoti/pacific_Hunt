@@ -5,6 +5,7 @@ import Jobspage from './routes/jobsPage.jsx';
 import Companypage from './routes/companyPage.jsx';
 import Login from './routes/login.jsx';
 
+// Display elements for different paths
 const router = createBrowserRouter([
   {
     path: '/',

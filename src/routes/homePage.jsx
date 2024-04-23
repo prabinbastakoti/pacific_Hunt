@@ -12,6 +12,7 @@ import Footer from '../component/Footer';
 function Homepage() {
   return (
     <>
+      {/* tab props helps to show border below the current tab based on its value */}
       <Navbar tab="Home" />
       <div className="flex flex-col gap-16 xl:gap-20">
         <HeroSection />
