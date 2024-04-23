@@ -1,9 +1,9 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import HomePage from "./routes/homePage";
-import Layout from "./routes/layout";
-import JobsPage from "./routes/jobsPage";
-import CompanyPage from "./routes/companyPage";
-import Login from "./routes/login";
+import Homepage from "./routes/Homepage";
+import Layout from "./routes/Layout";
+import Jobspage from "./routes/Jobspage";
+import Companypage from "./routes/Companypage";
+import Login from "./routes/Login";
 
 function App() {
   const router = createBrowserRouter([
@@ -13,19 +13,19 @@ function App() {
       children: [
         {
           path: "/",
-          element: <HomePage />,
+          element: <Homepage />,
         },
         {
           path: "/Home",
-          element: <HomePage />,
+          element: <Homepage />,
         },
         {
           path: "/Jobs",
-          element: <JobsPage />,
+          element: <Jobspage />,
         },
         {
           path: "/Companies",
-          element: <CompanyPage />,
+          element: <Companypage />,
         },
 
         {

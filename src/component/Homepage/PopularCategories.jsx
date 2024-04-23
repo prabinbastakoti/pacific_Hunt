@@ -21,17 +21,19 @@ const array = [
 
 const popularCategories = () => {
   return (
-    <div>
-      <div className="w-[1216px] flex justify-between mx-auto items-center mb-6">
-        <h1 className="font-semibold text-2xl">Popular Categories</h1>
+    <div className="px-6 md:px-0">
+      <div className="md:w-[1216px] flex justify-between mx-auto items-center mb-6">
+        <h1 className="font-semibold text-xl md:text-2xl">
+          Popular Categories
+        </h1>
         <div className="flex items-center justify-between gap-2 rounded-[4px] border-[1px] px-6 py-4">
-          <button className="font-medium text-base text-center text-[#01A3E0]">
+          <button className="font-medium text-center text-[#01A3E0]">
             See More
           </button>
           <img src={arrow} alt="" />
         </div>
       </div>
-      <div className="grid grid-cols-3 w-[1216px] mx-auto justify-between gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 md:w-[1216px] mx-auto justify-between gap-4">
         {array.map((item, index) => {
           return (
             <div

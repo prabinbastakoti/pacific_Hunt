@@ -1,7 +1,6 @@
 import img1 from "../../assets/topOpenings1.png";
 import img2 from "../../assets/topOpenings2.png";
 import img3 from "../../assets/topOpenings3.png";
-import arrow from "../../assets/arrow.svg";
 import SingleOpening from "../SingleOpening";
 
 const array = [
@@ -76,7 +75,7 @@ const array = [
 const TopOpenings = () => {
   return (
     <div>
-      <div className="grid grid-cols-3 w-[1216px] mx-auto justify-between gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 md:w-[1216px] mx-auto justify-between gap-6">
         {array.map((item) => {
           return <SingleOpening data={item} key={item.id} />;
         })}

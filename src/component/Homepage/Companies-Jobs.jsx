@@ -54,7 +54,7 @@ const array = [
 
 const CompaniesJobs = () => {
   return (
-    <div className="grid grid-cols-3 justify-between gap-6">
+    <div className="grid grid-cols-1 md:grid-cols-3 justify-between gap-6">
       {array.map((item, index) => {
         return <SingleCompanyJobs data={item} key={index} />;
       })}

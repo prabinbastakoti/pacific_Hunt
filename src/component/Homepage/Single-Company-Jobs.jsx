@@ -7,7 +7,7 @@ const SingleCompanyJobs = ({ data }) => {
         <div>
           <img src={data.img} alt="" />
         </div>
-        <div className="bg-[#EFFAFF] border-[1px] border-[#01A3E0] rounded-[30px] px-4 py-3 text-[#0072AA] text-center">
+        <div className="text-sm md:text-base bg-[#EFFAFF] border-[1px] border-[#01A3E0] rounded-[30px] px-4 py-3 text-[#0072AA] text-center">
           {data.available} jobs available
         </div>
       </div>
