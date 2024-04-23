@@ -8,7 +8,7 @@ import vacancies from '../../assets/heroSection4.svg';
 const HeroSection = () => {
   return (
     <div className="max-w-[1980px] mx-auto w-full bg-[#F5F6F6] pt-16 xl:pt-20 relative px-6 xl:px-0">
-      <div className="w-[1216px] mx-auto">
+      <div className="xl:w-[1216px] mx-auto">
         <div className="xl:w-[54%] mb-20 xl:mb-32">
           <div className="flex items-center gap-3">
             <img src="/checkbox.svg" alt="" />
