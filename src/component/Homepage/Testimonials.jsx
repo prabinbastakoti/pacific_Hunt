@@ -42,7 +42,7 @@ const Testimonials = () => {
         </h1>
         <div className="flex items-center gap-2 md:gap-4">
           <img src={arrowLeft} alt="" className="w-10 md:w-20" />
-          <div className="text-sm text-[22px] font-medium text-[#3C3D3D]">
+          <div className="text-sm md:text-[22px] font-medium text-[#3C3D3D]">
             <span className="text-[#01A3E0]">2</span>/14
           </div>
           <img src={arrowRight} alt="" className="w-10 md:w-20" />
