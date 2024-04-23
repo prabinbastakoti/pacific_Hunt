@@ -76,15 +76,6 @@ const array = [
 const TopOpenings = () => {
   return (
     <div>
-      <div className="w-[1216px] flex justify-between mx-auto items-center mb-6">
-        <h1 className="font-semibold text-2xl">Top Job Openings</h1>
-        <div className="flex items-center justify-between gap-2 rounded-[4px] border-[1px] px-6 py-4">
-          <button className="font-medium text-base text-center text-[#01A3E0]">
-            See More
-          </button>
-          <img src={arrow} alt="" />
-        </div>
-      </div>
       <div className="grid grid-cols-3 w-[1216px] mx-auto justify-between gap-6">
         {array.map((item) => {
           return <SingleOpening data={item} key={item.id} />;

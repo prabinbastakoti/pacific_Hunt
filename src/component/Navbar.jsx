@@ -5,7 +5,7 @@ const tabs = ["Home", "Jobs", "Companies", "About us"];
 
 const Navbar = ({ tab }) => {
   return (
-    <div className="w-[1440px] h-[80px] flex justify-between items-center mx-auto">
+    <div className="w-[1216px] h-[80px] flex justify-between items-center mx-auto">
       <div>
         <img src={logo} alt="" className="w-[188px] h-[39.69px]" />
       </div>

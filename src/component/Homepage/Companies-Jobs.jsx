@@ -54,20 +54,10 @@ const array = [
 
 const CompaniesJobs = () => {
   return (
-    <div className="w-[1216px] mx-auto">
-      <div className="flex justify-end mb-6">
-        <div className="flex items-center justify-between gap-2 rounded-[4px] border-[1px] px-6 py-4">
-          <button className="font-medium text-base text-center text-[#01A3E0]">
-            See More
-          </button>
-          <img src={arrow} alt="" />
-        </div>
-      </div>
-      <div className="grid grid-cols-3 justify-between gap-6">
-        {array.map((item, index) => {
-          return <SingleCompanyJobs data={item} key={index} />;
-        })}
-      </div>
+    <div className="grid grid-cols-3 justify-between gap-6">
+      {array.map((item, index) => {
+        return <SingleCompanyJobs data={item} key={index} />;
+      })}
     </div>
   );
 };
