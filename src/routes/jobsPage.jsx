@@ -13,7 +13,7 @@ const array = [
   "Work Location",
 ];
 
-const JobsPage = () => {
+const Jobspage = () => {
   return (
     <div className="">
       <Navbar tab="Jobs" />
@@ -70,4 +70,4 @@ const JobsPage = () => {
   );
 };
 
-export default JobsPage;
+export default Jobspage;

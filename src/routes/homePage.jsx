@@ -9,7 +9,7 @@ import Testimonials from "../component/Homepage/Testimonials";
 import JoinToday from "../component/JoinToday";
 import Footer from "../component/Footer";
 
-function HomePage() {
+function Homepage() {
   return (
     <>
       <Navbar tab="Home" />
@@ -52,4 +52,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default Homepage;

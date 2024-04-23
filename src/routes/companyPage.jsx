@@ -5,7 +5,7 @@ import Pagination from "../component/Pagination";
 import JoinToday from "../component/JoinToday";
 import Footer from "../component/Footer";
 
-const CompanyPage = () => {
+const Companypage = () => {
   return (
     <>
       <div className="">
@@ -51,4 +51,4 @@ const CompanyPage = () => {
   );
 };
 
-export default CompanyPage;
+export default Companypage;
