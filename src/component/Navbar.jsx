@@ -1,10 +1,18 @@
-import logo from "../assets/homepage.png";
-import { Link } from "react-router-dom";
-import { GiHamburgerMenu } from "react-icons/gi";
+import logo from '../assets/homepage.png';
+import { Link } from 'react-router-dom';
+import { GiHamburgerMenu } from 'react-icons/gi';
 
-const tabs = ["Home", "Jobs", "Companies", "About us"];
+import { useState } from 'react';
+
+const tabs = ['Home', 'Jobs', 'Companies', 'About us'];
 
 const Navbar = ({ tab }) => {
+  const [open, setOpen] = useState(false);
+
+  const handleOpen = () => {
+    setOpen(!open);
+  };
+
   return (
     <div className="md:w-[1216px] h-[80px] flex justify-between items-center mx-auto px-6 md:px-0">
       <div>
@@ -17,13 +25,13 @@ const Navbar = ({ tab }) => {
               <div
                 key={item}
                 className={`ml-8 ${
-                  tab === item.trim() ? "text-[#01A3E0]" : "text-black"
+                  tab === item.trim() ? 'text-[#01A3E0]' : 'text-black'
                 }`}
               >
                 <Link to={`/${item.trim()}`}>{item}</Link>
                 <div
                   className={`w-1/2 h-[2px] ${
-                    tab === item.trim() ? "bg-[#01A3E0]" : "bg-none"
+                    tab === item.trim() ? 'bg-[#01A3E0]' : 'bg-none'
                   }`}
                 ></div>
               </div>
@@ -39,7 +47,28 @@ const Navbar = ({ tab }) => {
           </button>
         </div>
       </div>
-      <GiHamburgerMenu className="md:hidden" />
+      <GiHamburgerMenu
+        className={`${
+          open ? 'text-white' : 'text-black'
+        } text-lg cursor-pointer md:hidden z-20`}
+        onClick={handleOpen}
+      />
+      <div
+        className={`md:hidden z-10 absolute top-0 right-0 transition-transform duration-500 ${
+          open ? 'translate-x-0' : 'translate-x-full'
+        } w-1/2 h-[100vh] bg-black flex flex-col justify-center
+        items-center gap-6`}
+      >
+        {tabs.map((item, index) => {
+          return (
+            <div key={index} className="text-white uppercase">
+              <Link to={`/${item.trim()}`} className="uppercase">
+                {item}
+              </Link>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 };
