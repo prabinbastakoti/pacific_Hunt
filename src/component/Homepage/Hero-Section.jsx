@@ -19,7 +19,7 @@ const HeroSection = () => {
           <h1 className="text-[#3C3D3D] text-4xl md:text-5xl font-extrabold leading-[60px] mt-4">
             Unlock Your Dream <span className="text-[#01A3E0]">Career</span>
           </h1>
-          <div className="md:absolute bottom-0 right-0 md:w-[900px] max-w-screen-sm">
+          <div className="md:absolute bottom-0 right-0 md:w-[900px] md:max-w-screen-lg">
             <img src={HeroImg} alt="" className="" />
             <img
               src={slack}
@@ -29,7 +29,7 @@ const HeroSection = () => {
             <img
               src={facebook}
               alt=""
-              className="absolute md:top-0 md:right-[72%] top-60 w-16 md:w-20"
+              className="absolute md:top-0 md:right-[72%] top-56 right-[72%] w-16 md:w-20"
             />
             <img
               src={google}
