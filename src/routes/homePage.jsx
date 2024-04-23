@@ -12,8 +12,8 @@ import Footer from "../component/Footer";
 function HomePage() {
   return (
     <>
+      <Navbar tab="Home" />
       <div className="flex flex-col gap-20">
-        <Navbar tab="Home" />
         <HeroSection />
         <PopularCategories />
         <div>
