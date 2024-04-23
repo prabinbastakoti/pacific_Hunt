@@ -14,7 +14,7 @@ const SearchBar = () => {
               className="outline-none"
             />
           </div>
-          <div className="flex-1 flex items-center gap-3 md:border-r-[1px] border-[#D0D1D1] py-3 md:py-0">
+          <div className="flex-1 flex items-center gap-3 md:border-r-[1px] border-[#D0D1D1] py-3 md:py-0 mb-2 md:mb-0">
             <CiLocationOn size={24} />
             <input
               type="text"

@@ -1,23 +1,23 @@
-import Navbar from "../component/Navbar";
-import SearchBar from "../component/SearchBar";
-import TopOpenings from "../component/Homepage/TopOpenings";
-import JoinToday from "../component/JoinToday";
-import Footer from "../component/Footer";
-import Pagination from "../component/Pagination";
+import Navbar from '../component/Navbar';
+import SearchBar from '../component/SearchBar';
+import TopOpenings from '../component/Homepage/TopOpenings';
+import JoinToday from '../component/JoinToday';
+import Footer from '../component/Footer';
+import Pagination from '../component/Pagination';
 
 const array = [
-  "Job Type",
-  "Salary Range",
-  "Category",
-  "Experience Level",
-  "Work Location",
+  'Job Type',
+  'Salary Range',
+  'Category',
+  'Experience Level',
+  'Work Location',
 ];
 
 const Jobspage = () => {
   return (
     <div className="">
       <Navbar tab="Jobs" />
-      <div className="bg-[#F5F6F6] h-[96px] px-28 py-[34px] mb-10">
+      <div className="bg-[#F5F6F6] h-[96px] flex justify-center items-center mb-10">
         <div className="md:w-[1216px] mx-auto font-semibold text-lg md:text-[22px] leading-7">
           Find your dream <span className="text-[#01A3E0]">job</span>
         </div>
@@ -31,13 +31,13 @@ const Jobspage = () => {
                 key={index}
                 className="flex justify-between items-center gap-4 md:gap-[72px] border-[1px] border-[#E6E7E7] rounded py-4 px-[14px]"
               >
-                <div className="text-sm md:text-base">{item}</div>
+                <div className="text-xs md:text-base">{item}</div>
                 <img src="./downArrow.svg" alt="" />
               </div>
             );
           })}
         </div>
-        <div className="flex items-center justify-between mt-8 pb-10 border-b-[1px] border-[#D0D1D1] mb-8">
+        <div className="flex flex-col gap-4 md:flex-row md:gap-0 items-center justify-between mt-8 pb-10 border-b-[1px] border-[#D0D1D1] mb-8">
           <div>
             <div className="text-[#6B6D6F] text-sm md:text-base">
               Showing results for

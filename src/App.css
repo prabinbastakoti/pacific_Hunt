@@ -1,6 +1,8 @@
-body {
-  font-family: "Be Vietnam Pro", "sans-serif";
+body,
+html {
+  font-family: 'Be Vietnam Pro', 'sans-serif';
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 #root {

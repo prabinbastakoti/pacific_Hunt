@@ -1,8 +1,8 @@
-import { Outlet } from "react-router-dom";
+import { Outlet } from 'react-router-dom';
 
 function Layout() {
   return (
-    <div>
+    <div className="relative">
       <Outlet />
     </div>
   );

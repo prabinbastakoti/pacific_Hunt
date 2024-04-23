@@ -54,7 +54,7 @@ const Navbar = ({ tab }) => {
         onClick={handleOpen}
       />
       <div
-        className={`md:hidden z-10 absolute top-0 right-0 transition-transform duration-500 ${
+        className={`md:hidden z-10 absolute top-0 right-0  transition-transform duration-500 ${
           open ? 'translate-x-0' : 'translate-x-full'
         } w-1/2 h-[100vh] bg-black flex flex-col justify-center
         items-center gap-6`}

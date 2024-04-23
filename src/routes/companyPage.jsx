@@ -1,23 +1,23 @@
-import CompanySearchBar from "../component/CompanySearchBar";
-import Navbar from "../component/Navbar";
-import CompaniesJobs from "../component/Homepage/Companies-Jobs.jsx";
-import Pagination from "../component/Pagination";
-import JoinToday from "../component/JoinToday";
-import Footer from "../component/Footer";
+import CompanySearchBar from '../component/CompanySearchBar';
+import Navbar from '../component/Navbar';
+import CompaniesJobs from '../component/Homepage/Companies-Jobs.jsx';
+import Pagination from '../component/Pagination';
+import JoinToday from '../component/JoinToday';
+import Footer from '../component/Footer';
 
 const Companypage = () => {
   return (
     <>
       <div className="">
         <Navbar tab="Companies" />
-        <div className="bg-[#F5F6F6] h-[96px] px-28 py-[34px] mb-10">
+        <div className="bg-[#F5F6F6] h-[96px] flex items-center justify-center mb-10">
           <div className="md:w-[1216px] mx-auto font-semibold text-lg md:text-[22px] leading-7">
             Explore the <span className="text-[#01A3E0]">best</span> companies
           </div>
         </div>
         <CompanySearchBar />
         <div className="md:w-[1216px] mx-auto px-6 md:px-6">
-          <div className="flex items-center justify-between mt-8 pb-10 border-b-[1px] border-[#D0D1D1] mb-8">
+          <div className="flex flex-col gap-4 md:gap-0 md:flex-row items-center justify-between mt-8 pb-10 border-b-[1px] border-[#D0D1D1] mb-8">
             <div>
               <div className="text-[#6B6D6F] text-sm md:text-base">
                 Showing results for

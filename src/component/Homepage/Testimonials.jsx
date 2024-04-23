@@ -35,17 +35,17 @@ const array = [
 const Testimonials = () => {
   return (
     <div className="bg-[#F5F6F6] md:h-[592px] py-16 px-10 md:pl-[300px] mx-auto">
-      <div className="md:w-[1216px] flex items-center justify-between mb-14">
+      <div className="md:w-[1216px] flex items-center justify-between mb-14 px-2 md:px-0">
         <h1 className="font-semibold text-lg md:text-2xl leading-8">
           What our client say about{' '}
           <span className="text-[#01A3E0]">Pacific Hunt</span>
         </h1>
-        <div className="flex items-center gap-2 md:gap-4">
-          <img src={arrowLeft} alt="" className="w-10 md:w-20" />
+        <div className="flex items-center gap-1 md:gap-4">
+          <img src={arrowLeft} alt="" className="w-8 md:w-20" />
           <div className="text-sm md:text-[22px] font-medium text-[#3C3D3D]">
             <span className="text-[#01A3E0]">2</span>/14
           </div>
-          <img src={arrowRight} alt="" className="w-10 md:w-20" />
+          <img src={arrowRight} alt="" className="w-8 md:w-20" />
         </div>
       </div>
       <div className="grid grid-cols-1 md:inline-flex gap-12">

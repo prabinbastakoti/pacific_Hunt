@@ -1,9 +1,9 @@
-import SearchBar from "../SearchBar";
-import HeroImg from "../../assets/hero.png";
-import slack from "../../assets/heroSection1.svg";
-import facebook from "../../assets/heroSection2.svg";
-import google from "../../assets/heroSection3.svg";
-import vacancies from "../../assets/heroSection4.svg";
+import SearchBar from '../SearchBar';
+import HeroImg from '../../assets/hero.png';
+import slack from '../../assets/heroSection1.svg';
+import facebook from '../../assets/heroSection2.svg';
+import google from '../../assets/heroSection3.svg';
+import vacancies from '../../assets/heroSection4.svg';
 
 const HeroSection = () => {
   return (
@@ -24,22 +24,22 @@ const HeroSection = () => {
             <img
               src={slack}
               alt=""
-              className="absolute md:top-60 md:right-72 top-72 right-32 w-16 md:w-20"
+              className="absolute md:top-60 md:right-72 top-72 right-28 w-14 md:w-24"
             />
             <img
               src={facebook}
               alt=""
-              className="absolute md:top-0 md:right-[72%] top-56 right-[72%] w-16 md:w-20"
+              className="absolute md:top-4 md:right-[72%] top-56 right-[72%] w-16 md:w-24"
             />
             <img
               src={google}
               alt=""
-              className="absolute md:top-40 md:right-[78%] top-[310px] w-16 md:w-20"
+              className="absolute md:top-40 md:right-[78%] top-[300px] right-[82%] w-16 md:w-24"
             />
             <img
               src={vacancies}
               alt=""
-              className="absolute md:top-14 md:right-72 top-52 right-32 w-16 md:w-20"
+              className="absolute md:top-14 md:right-72 top-[220px] right-32 w-16 md:w-24"
             />
           </div>
           <div className="mt-6 text-base md:text-lg text-[#4E4F50] w-[90%] mb-10 md:mb-16">
