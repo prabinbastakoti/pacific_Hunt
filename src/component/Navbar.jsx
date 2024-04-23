@@ -14,11 +14,11 @@ const Navbar = ({ tab }) => {
   };
 
   return (
-    <div className="md:w-[1216px] h-[80px] flex justify-between items-center mx-auto px-6 md:px-0">
+    <div className="xl:w-[1216px] h-[80px] flex justify-between items-center mx-auto px-6 xl:px-0">
       <div>
         <img src={logo} alt="" className="w-[188px] h-[39.69px]" />
       </div>
-      <div className="hidden  md:flex items-center gap-8">
+      <div className="hidden  xl:flex items-center gap-8">
         <div className="flex items-center gap-6">
           {tabs.map((item) => {
             return (
@@ -50,11 +50,11 @@ const Navbar = ({ tab }) => {
       <GiHamburgerMenu
         className={`${
           open ? 'text-white' : 'text-black'
-        } text-lg cursor-pointer md:hidden z-20`}
+        } text-xl cursor-pointer xl:hidden z-20`}
         onClick={handleOpen}
       />
       <div
-        className={`md:hidden z-10 absolute top-0 right-0  transition-transform duration-500 ${
+        className={`xl:hidden z-10 absolute top-0 right-0  transition-transform duration-500 ${
           open ? 'translate-x-0' : 'translate-x-full'
         } w-1/2 h-[100vh] bg-black flex flex-col justify-center
         items-center gap-6`}

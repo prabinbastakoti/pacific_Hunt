@@ -18,36 +18,36 @@ const Jobspage = () => {
     <div className="">
       <Navbar tab="Jobs" />
       <div className="bg-[#F5F6F6] h-[96px] flex justify-center items-center mb-10">
-        <div className="md:w-[1216px] mx-auto font-semibold text-lg md:text-[22px] leading-7">
+        <div className="xl:w-[1216px] mx-auto font-semibold text-xl xl:text-[22px] leading-7">
           Find your dream <span className="text-[#01A3E0]">job</span>
         </div>
       </div>
       <SearchBar />
-      <div className="md:w-[1216px] mx-auto px-6 md:px-0">
-        <div className="mt-6 grid grid-cols-2 md:flex items-center justify-between pb-10 border-b-[1px] border-[#D0D1D1]">
+      <div className="xl:w-[1216px] mx-auto px-6 xl:px-0">
+        <div className="mt-6 grid grid-cols-2 xl:flex items-center justify-between pb-10 border-b-[1px] border-[#D0D1D1]">
           {array.map((item, index) => {
             return (
               <div
                 key={index}
-                className="flex justify-between items-center gap-4 md:gap-[72px] border-[1px] border-[#E6E7E7] rounded py-4 px-[14px]"
+                className="flex justify-between items-center gap-4 xl:gap-[72px] border-[1px] border-[#E6E7E7] rounded py-4 px-[14px]"
               >
-                <div className="text-xs md:text-base">{item}</div>
+                <div className="text-xs xl:text-base">{item}</div>
                 <img src="./downArrow.svg" alt="" />
               </div>
             );
           })}
         </div>
-        <div className="flex flex-col gap-4 md:flex-row md:gap-0 items-center justify-between mt-8 pb-10 border-b-[1px] border-[#D0D1D1] mb-8">
+        <div className="flex flex-col gap-4 xl:flex-row xl:gap-0 items-center justify-between mt-8 pb-10 border-b-[1px] border-[#D0D1D1] mb-8">
           <div>
-            <div className="text-[#6B6D6F] text-sm md:text-base">
+            <div className="text-[#6B6D6F] text-sm xl:text-base">
               Showing results for
             </div>
-            <div className="text-base md:text-lg font-semibold leading-6 text-[#3C3D3D] mt-2">
+            <div className="text-base xl:text-xl font-semibold leading-6 text-[#3C3D3D] mt-2">
               All available jobs (112)
             </div>
           </div>
-          <div className="flex items-center justify-between border-[1px] border-[#E6E7E7] py-1 md:py-3">
-            <div className="md:border-r-[1px] border-[#D0D1D1] text-[#3C3D3D] font-semibold text-sm md:text-base px-2 md:px-4">
+          <div className="flex items-center justify-between border-[1px] border-[#E6E7E7] py-1 xl:py-3">
+            <div className="xl:border-r-[1px] border-[#D0D1D1] text-[#3C3D3D] font-semibold text-sm xl:text-base px-2 xl:px-4">
               Sort By:
             </div>
             <div className="flex items-center justify-between text-sm md:text-base md:px-6 md:gap-6">

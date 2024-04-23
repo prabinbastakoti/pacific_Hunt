@@ -9,16 +9,21 @@ const array = [google, zoho, airbnb, microsoft, clickup];
 const JoinCompanies = () => {
   return (
     <>
-      <div className="bg-[#F5F6F6] md:h-[300px] py-10 md:py-20">
-        <div className="md:w-[1216px] h-full mx-auto flex flex-col justify-between items-center gap-6 md:gap-0">
-          <h1 className="font-semibold text-xl md:text-2xl text-center">
+      <div className="bg-[#F5F6F6] xl:h-[300px] py-10 xl:py-20 max-w-[1980px] mx-auto w-full">
+        <div className="xl:w-[1216px] h-full mx-auto flex flex-col justify-between items-center gap-6 xl:gap-0">
+          <h1 className="font-semibold text-xl xl:text-2xl text-center">
             Join in globally <span className="text-[#01A3E0]">renowned</span>{' '}
             companies
           </h1>
-          <div className="grid grid-cols-3 md:flex items-center md:justify-between gap-4 md:gap-16">
+          <div className="grid grid-cols-3 lg:flex items-center lg:justify-between gap-4 lg:gap-16">
             {array.map((item, index) => {
               return (
-                <img src={item} alt="" key={index} className="w-20 md:w-44" />
+                <img
+                  src={item}
+                  alt=""
+                  key={index}
+                  className="w-20 lg:w-32 xl:w-44"
+                />
               );
             })}
           </div>

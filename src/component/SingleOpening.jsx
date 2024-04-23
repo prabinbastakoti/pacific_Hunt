@@ -11,7 +11,7 @@ const SingleOpening = ({ data }) => {
     >
       <div className="flex justify-between">
         <img src={data.img} alt="" className="w-[48px] h-[48px] rounded-full" />
-        <button className="text-sm md:text-base text-[#01A3E0] rounded-[4px] border-[1px] px-3 md:px-6 md:py-3 border-[#01A3E0]">
+        <button className="text-sm xl:text-base text-[#01A3E0] rounded-[4px] border-[1px] px-3 xl:px-6 xl:py-3 border-[#01A3E0]">
           Apply Now
         </button>
       </div>
@@ -19,11 +19,11 @@ const SingleOpening = ({ data }) => {
       <div className="flex items-center gap-4 mb-4 mt-[2px]">
         <div className="flex items-center justify-between gap-1">
           <IoLocationOutline />
-          <div className="text-xs md:text-[14px]">{data.address}</div>
+          <div className="text-xs xl:text-[14px]">{data.address}</div>
         </div>
         <div className="flex items-center justify-between gap-1">
           <IoTimeOutline />
-          <div className="text-xs md:text-[14px]">
+          <div className="text-xs xl:text-[14px]">
             Expires in {data.expires}
           </div>
         </div>
@@ -32,7 +32,7 @@ const SingleOpening = ({ data }) => {
         {data.details.map((item, index) => {
           return (
             <div key={item} className="flex items-center  gap-4">
-              <div className="text-[#3C3D3D] text-sm md:text-base">{item}</div>
+              <div className="text-[#3C3D3D] text-sm xl:text-base">{item}</div>
               <div
                 className={`${
                   index === 2 ? 'hidden' : 'flex-initial'
@@ -42,12 +42,12 @@ const SingleOpening = ({ data }) => {
           );
         })}
       </div>
-      <div className="text-[#3C3D3D] text-sm md:text-base">
+      <div className="text-[#3C3D3D] text-sm xl:text-base">
         Salary: <span>{data.salary}</span>
       </div>
-      <div className="w-full h-[2px] bg-[#E6E7E7] my-4 md:my-8"></div>
+      <div className="w-full h-[2px] bg-[#E6E7E7] my-4 xl:my-8"></div>
       <div className="flex justify-between items-center">
-        <div className="font-medium text-[#3C3D3D] text-sm md:text-base">
+        <div className="font-medium text-[#3C3D3D] text-sm xl:text-base">
           {data.corp}
         </div>
         {data.id === 3 || data.id === 4 ? (
