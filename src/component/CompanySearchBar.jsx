@@ -24,7 +24,7 @@ const CompanySearchBar = () => {
           </div>
           <div className="flex-1 flex items-center justify-between pr-4 text-[#86888A] py-3 md:py-0 pl-9 md:pl-0">
             <div>Industry type</div>
-            <img src="/downArrow.svg" alt="" />
+            <img src="./downArrow.svg" alt="" />
           </div>
         </div>
         <button

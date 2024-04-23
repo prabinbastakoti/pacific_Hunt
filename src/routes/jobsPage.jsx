@@ -32,7 +32,7 @@ const JobsPage = () => {
                 className="flex justify-between items-center gap-4 md:gap-[72px] border-[1px] border-[#E6E7E7] rounded py-4 px-[14px]"
               >
                 <div className="text-sm md:text-base">{item}</div>
-                <img src="/downArrow.svg" alt="" />
+                <img src="./downArrow.svg" alt="" />
               </div>
             );
           })}
@@ -52,7 +52,7 @@ const JobsPage = () => {
             </div>
             <div className="flex items-center justify-between text-sm md:text-base md:px-6 md:gap-6">
               <div className="text-[#3C3D3D] leading-6">Most Relevant</div>
-              <img src="/downArrow.svg" alt="" />
+              <img src="./downArrow.svg" alt="" />
             </div>
           </div>
         </div>

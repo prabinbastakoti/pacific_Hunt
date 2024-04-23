@@ -47,9 +47,9 @@ const SingleOpening = ({ data }) => {
       <div className="flex justify-between items-center">
         <div className="font-medium text-[#3C3D3D]">{data.corp}</div>
         {data.id === 3 || data.id === 4 ? (
-          <img src="/bookmark-fill.svg" />
+          <img src="./bookmark-fill.svg" />
         ) : (
-          <img src="/bookmark.svg" />
+          <img src="./bookmark.svg" />
         )}
       </div>
     </div>
