@@ -29,7 +29,7 @@ const CompanySearchBar = () => {
         </div>
         <button
           type="button"
-          className="font-medium rounded md:px-5 bg-[#01A3E0] text-[#D6EBFB] w-1/2 md:w-full mx-auto py-3"
+          className="font-medium rounded md:px-5 bg-[#01A3E0] text-[#D6EBFB] w-1/2 md:w-max mx-auto py-3"
         >
           Search Companies
         </button>
