@@ -5,8 +5,8 @@ const SearchBar = () => {
   return (
     <div className="max-w-[1216px] p-3 xl:p-2 bg-white mx-auto rounded-xl  border-[1px] border-[#E6E7E7] shadow=[#BECCFF26]">
       <form className="xl:flex xl:justify-between grid grid-cols-1">
-        <div className="flex-1 lg:flex justify-between gap-4 px-3 py-3 xl:py-5">
-          <div className="flex-1 flex items-center gap-3 border-b-[1px] lg:border-b-[0px] lg:border-r-[1px] border-[#D0D1D1] py-3 xl:py-0">
+        <div className="flex-1 xl:flex justify-between gap-4 px-3 py-3 xl:py-5">
+          <div className="flex-1 flex items-center gap-3 border-b-[1px] xl:border-b-[0px] xl:border-r-[1px] border-[#D0D1D1] py-3 xl:py-0">
             <FiSearch size={24} />
             <input
               type="text"
