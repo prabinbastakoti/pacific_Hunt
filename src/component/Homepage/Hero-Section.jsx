@@ -25,22 +25,22 @@ const HeroSection = () => {
             <img
               src={slack}
               alt=""
-              className="absolute top-72 right-32 w-16 sm:w-16 sm:right-52 sm:top-72 md:right-60 md:top-72 md:w-20 lg:top-36 lg:right-44 lg:w-24 xl:top-32 xl:right-36 2xl:top-[200px] 2xl:right-[250px] 2xl:w-24"
+              className="absolute top-72 right-32 w-14 sm:w-16 sm:right-52 sm:top-72 md:right-60 md:top-72 md:w-20 lg:top-36 lg:right-44 lg:w-24 xl:top-32 xl:right-36 2xl:top-[200px] 2xl:right-[250px] 2xl:w-24"
             />
             <img
               src={facebook}
               alt=""
-              className="absolute top-56 right-[72%] w-16 sm:w-16 md:top-40 md:left-40 md:w-20 lg:top-0 lg:left-20 lg:w-24 xl:top-0 xl:left-32 2xl:top-4 2xl:right-[72%] 2xl:w-24"
+              className="absolute top-56 right-[72%] w-14 sm:w-16 md:top-40 md:left-40 md:w-20 lg:top-0 lg:left-20 lg:w-24 xl:top-0 xl:left-32 2xl:top-4 2xl:right-[72%] 2xl:w-24"
             />
             <img
               src={google}
               alt=""
-              className="absolute top-[300px] right-[82%] w-16 sm:w-16 md:top-72 md:left-24 md:w-20 lg:w-24 lg:left-12 lg:top-36 xl:top-32 xl:left-24 2xl:top-40 2xl:right-[78%] 2xl:w-24"
+              className="absolute top-[280px] right-[80%] w-14 sm:w-16 md:top-72 md:left-24 md:w-20 lg:w-24 lg:left-12 lg:top-36 xl:top-32 xl:left-24 2xl:top-40 2xl:right-[78%] 2xl:w-24"
             />
             <img
               src={vacancies}
               alt=""
-              className="absolute top-44 right-32 w-20 sm:w-20 sm:top-[190px] sm:right-52 md:right-64 md:top-40 md:w-24 lg:-top-2 lg:w-28 lg:right-52 xl:top-0 xl:right-44 2xl:top-14 2xl:right-72 2xl:w-28"
+              className="absolute top-[220px] right-32 w-14 sm:w-20 sm:top-[190px] sm:right-52 md:right-64 md:top-40 md:w-24 lg:-top-2 lg:w-28 lg:right-52 xl:top-0 xl:right-44 2xl:top-14 2xl:right-72 2xl:w-28"
             />
           </div>
           <div className="mt-6 text-base xl:text-xl text-[#4E4F50] w-[90%] mb-10 xl:mb-16">
