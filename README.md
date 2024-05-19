@@ -1,25 +1,26 @@
-## Project Name & Pitch
+## Pacific Hunt
 
-#### Example:
-
-TweetWorld 
-
-An application used to filter data form Twitter based on user preference, built with React, Redux, JavaScript, and CSS.
-
-## Project Status
-(only necessary if incomplete)
-
-#### Example:
-
-This project is currently in development. Users can filter tweets by username and keyword and see visual data representation. Functionality to sort by additional parameters is in progress.
+An Frontend application used to give users access to browse different jobs, built with React, JavaScript, and TailwindCSS.
 
 ## Project Screen Shot(s)
 
-#### Example:   
+![Screenshot 2024-05-19 183312](https://github.com/prabinbastakoti/pacific_Hunt/assets/101822704/9e6d0c5c-900d-4b72-9da1-46d173927cb4)
 
-[ PRETEND SCREEN SHOT IS HERE ]
+![Screenshot 2024-05-19 183324](https://github.com/prabinbastakoti/pacific_Hunt/assets/101822704/3fbcd5c2-e226-47d0-b2c4-0dc423699b12)
 
-[ PRETEND OTHER SCREEN SHOT IS HERE ]
+![Screenshot 2024-05-19 183330](https://github.com/prabinbastakoti/pacific_Hunt/assets/101822704/64ddc7a4-9143-40ea-8ee0-3a87db3f2e72)
+
+![Screenshot 2024-05-19 183337](https://github.com/prabinbastakoti/pacific_Hunt/assets/101822704/c425c19c-c7c4-45a3-a040-6fee9c03be2f)
+
+![Screenshot 2024-05-19 183347](https://github.com/prabinbastakoti/pacific_Hunt/assets/101822704/983996a0-a54e-4689-af16-e657307aac98)
+
+![Screenshot 2024-05-19 183356](https://github.com/prabinbastakoti/pacific_Hunt/assets/101822704/c2db5f18-2017-435b-ac20-fc2ed750b079)
+
+![Screenshot 2024-05-19 183417](https://github.com/prabinbastakoti/pacific_Hunt/assets/101822704/da2842b7-15be-4803-b280-89e7a9afaa19)
+
+![Screenshot 2024-05-19 183424](https://github.com/prabinbastakoti/pacific_Hunt/assets/101822704/f73145d7-f2bd-4726-9d94-746eeffc1f4a)
+
+![Screenshot 2024-05-19 183408](https://github.com/prabinbastakoti/pacific_Hunt/assets/101822704/35f31ef5-0003-420c-926b-7b2ca2af5693)
 
 ## Installation and Setup Instructions
 
@@ -31,33 +32,6 @@ Installation:
 
 `npm install`  
 
-To Run Test Suite:  
+To run Server:
 
-`npm test`  
-
-To Start Server:
-
-`npm start`  
-
-To Visit App:
-
-`localhost:3000/ideas`  
-
-## Reflection
-
-  - What was the context for this project? (ie: was this a side project? was this for Turing? was this for an experiment?)
-  - What did you set out to build?
-  - Why was this project challenging and therefore a really good learning experience?
-  - What were some unexpected obstacles?
-  - What tools did you use to implement this project?
-      - This might seem obvious because you are IN this codebase, but to all other humans now is the time to talk about why you chose webpack instead of create react app, or D3, or vanilla JS instead of a framework etc. Brag about your choices and justify them here.  
-
-#### Example:  
-
-This was a 3 week long project built during my third module at Turing School of Software and Design. Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features.  
-
-Originally I wanted to build an application that allowed users to pull data from the Twitter API based on what they were interested in, such as 'most tagged users'. I started this process by using the `create-react-app` boilerplate, then adding `react-router-4.0` and `redux`.  
-
-One of the main challenges I ran into was Authentication. This lead me to spend a few days on a research spike into OAuth, Auth0, and two-factor authentication using Firebase or other third parties. Due to project time constraints, I had to table authentication and focus more on data visualization from parts of the API that weren't restricted to authenticated users.
-
-At the end of the day, the technologies implemented in this project are React, React-Router 4.0, Redux, LoDash, D3, and a significant amount of VanillaJS, JSX, and CSS. I chose to use the `create-react-app` boilerplate to minimize initial setup and invest more time in diving into weird technological rabbit holes. In the next iteration I plan on handrolling a `webpack.config.js` file to more fully understand the build process.
+`npm run dev`  
